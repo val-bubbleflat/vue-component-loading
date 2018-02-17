@@ -26,7 +26,6 @@
             registerComponent(){
                 this.isLoading = true;
                 this.nbComponents++
-                this.setTimeout();
             },
 
             componentEndLoading(){
@@ -53,14 +52,6 @@
             pourcentage(){
                 return (this.nbFinished / this.nbComponents) * 100;
             },
-
-            setTimeout(){
-                clearTimeout(this.timeout);
-                this.timeout = setTimeout(() => {
-                    console.log("timeout");
-                    this.nbFinished = this.nbComponents;
-                }, 2000)
-            }
 
         },
 
