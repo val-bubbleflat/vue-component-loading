@@ -1,5 +1,6 @@
 import Bus from './Bus'
 import LoadingMixin from './LoadingMixin';
+import VueProgressBar from 'vue-progressbar'
 
 export default {
 
