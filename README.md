@@ -1,14 +1,14 @@
-#Laravel Component Loading
+# Laravel Component Loading
 
 by bubbleflat.com
 
 TODO Description
 
-##Installation
+## Installation
 
 TODO
 
-##Usage
+## Usage
 
 First, register your progressbar :
 
@@ -29,7 +29,7 @@ this.failLoading();
 
 According to this state, you can access `loading` data in your component
 
-##Exemple
+## Exemple
 
 ```html
 <template>
