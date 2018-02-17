@@ -13,7 +13,7 @@ export default {
         }
         Vue.use(VueProgressBar, pbConfig);
 
-        Vue.mixins(LoadingMixin);
+        Vue.mixin(LoadingMixin);
         Vue.component('vue-loading-component');
     }
 
