@@ -16,7 +16,7 @@ class Bus{
 
     $on(event, callback){
         if(this.vue){
-            this.vue.$on(event, arg)
+            this.vue.$on(event, callback)
         }
     }
 
