@@ -1,4 +1,5 @@
 import Bus from './Bus'
+import Vue from 'vue'
 
 export default {
 
