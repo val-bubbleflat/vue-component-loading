@@ -1,6 +1,7 @@
 import Bus from './Bus'
 import LoadingMixin from './LoadingMixin';
-import VueProgressBar from 'vue-progressbar'
+import VueProgressBar from 'vue-progressbar';
+import LoadingComponent from './LoadingComponent.vue'
 
 export default {
 
@@ -14,7 +15,7 @@ export default {
         Vue.use(VueProgressBar, pbConfig);
 
         Vue.mixin(LoadingMixin);
-        Vue.component('vue-loading-component');
+        Vue.component('vue-loading-component', LoadingComponent);
     }
 
 }
