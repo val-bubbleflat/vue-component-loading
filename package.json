@@ -1,13 +1,32 @@
 {
   "name": "vue-component-loading",
   "version": "1.0.0",
-  "description": "Vuejs package to use a loading boolean inside a component",
+  "description": "Vuejs package, allow you to manage a loading state inside all component, and to display a progressbar",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "val-bubbleflat",
-  "license": "ISC",
+  "author": {
+    "name": "Valentin Vivies - Bubbleflat",
+    "email": "valentin@bubbleflat.com",
+    "url": "https://bubbleflat.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/val-bubbleflat/vue-component-loading"
+  },
+  "keywords": [
+    "vue",
+    "vue-component-loading",
+    "vue loading",
+    "progressbar",
+    "vue progressbar"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/val-bubbleflat/vue-component-loading/issues"
+  },
+  "homepage": "https://github.com/val-bubbleflat/vue-component-loading#readme",
   "dependencies": {
     "vue-progressbar": "^0.7.3"
   }
